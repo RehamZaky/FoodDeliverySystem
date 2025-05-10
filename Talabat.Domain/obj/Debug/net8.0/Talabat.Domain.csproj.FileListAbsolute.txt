@@ -1,0 +1,12 @@
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\bin\Debug\net8.0\Talabat.Domain.deps.json
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\bin\Debug\net8.0\Talabat.Domain.dll
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\bin\Debug\net8.0\Talabat.Domain.pdb
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\obj\Debug\net8.0\Talabat.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\obj\Debug\net8.0\Talabat.Domain.AssemblyInfoInputs.cache
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\obj\Debug\net8.0\Talabat.Domain.AssemblyInfo.cs
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\obj\Debug\net8.0\Talabat.Domain.csproj.CoreCompileInputs.cache
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\obj\Debug\net8.0\Talabat.Domain.sourcelink.json
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\obj\Debug\net8.0\Talabat.Domain.dll
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\obj\Debug\net8.0\refint\Talabat.Domain.dll
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\obj\Debug\net8.0\Talabat.Domain.pdb
+D:\.Net core workshop\TalabatSolution\Talabat.Domain\obj\Debug\net8.0\ref\Talabat.Domain.dll
