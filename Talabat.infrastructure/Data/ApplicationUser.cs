@@ -12,13 +12,11 @@ namespace Talabat.Infrastructure.Data
 
         public String FirstName { get; set; }
         public String LastName { get; set; }
-
         public String Gender { get; set; }
         public String? RefreshToken {  get; set; }
         public DateTime? RefreshTokenExpiryTime {  get; set; }
-        public DateTime CreateAt {  get; set; }
+        public DateTime CreateAt {  get; set; } = DateTime.Now;
         public DateTime? UpdateAt {  get; set; }
 
-       // public String Refre
     }
 }

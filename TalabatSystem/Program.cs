@@ -1,5 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Talabat.Application.Contracts.Interfaces;
+using Talabat.Application.Services;
+using Talabat.Infrastructure.Configurations;
 using Talabat.Infrastructure.Data;
 using TalabatSystem.Api.Configuration;
 
@@ -12,10 +15,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddInfrastructureService();
 builder.Services.AddApiServices(builder.Configuration);
+builder.Services.AddScoped<IUserService, UserService>();
 
-builder.Services.AddIdentity<IdentityUser,IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDBContext>().AddDefaultTokenProviders();
+
+//builder.Services.AddIdentity<IdentityUser,IdentityRole>()
+//    .AddEntityFrameworkStores<ApplicationDBContext>().AddDefaultTokenProviders();
 
 var app = builder.Build();
 

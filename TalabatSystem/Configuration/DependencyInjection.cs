@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Talabat.Application.xtentions;
 using Talabat.Infrastructure.Data;
 
 namespace TalabatSystem.Api.Configuration
@@ -43,6 +44,8 @@ namespace TalabatSystem.Api.Configuration
             {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             });
+
+            services.Configure<Jwt>(configuration.GetSection("Jwt"));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDBContext>()

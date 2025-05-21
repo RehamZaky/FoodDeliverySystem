@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lOonEli5VRGZnSTxap4hDM1/eUZ1SOEZHuVDZPAvvMiWifwSkluB1oR6DZ2vxlA/guuW6F75ckDMm3H5CBHnlw==",
+  "dgSpecHash": "bSj7sogukg0v8cWjM1XyjTIcbYHyi0v112SH2bkgQk3I+Rh2ccLqCKreLxPtNbnDmGc+k6+O2Eqp9sIZJ6N5eA==",
   "success": true,
   "projectFilePath": "D:\\.Net core workshop\\TalabatSolution\\TalabatSystem\\TalabatSystem.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Reham\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Reham\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Reham\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Reham\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
